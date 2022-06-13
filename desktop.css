@@ -1,0 +1,139 @@
+
+
+/*For Desktop:*/
+.col-1 {width: 8.33%}
+.col-2 {width: 16.66%}
+.col-3 {width: 25%}
+.col-4 {width: 33.33%}
+.col-5 {width: 41.66%}
+.col-6 {width: 50%}
+.col-7 {width: 58.33%}
+.col-8 {width: 66.66%}
+.col-9 {width: 75%}
+.col-10 {width: 83.33%}
+.col-11 {width: 91.66%}
+.col-12 {width: 100%}
+/*nabvar design start hare*/
+.nav-logo{
+    text-align: left;
+}
+.nav-heading h1{
+    text-align: right;
+}
+
+.navbar-manu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbar-manu a{
+    text-align: left;
+    padding: 5px 10px;
+    margin: 20px 0;
+}
+/*nabvar design ends hare*/
+
+/*profile design starts hare*/
+
+.profile .top-profile-img{
+    position: absolute;
+    left: 150px;
+    top: 50px;
+}
+
+.profile .profile-desc {
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 140px;
+    left: 600px;
+    text-align: center;
+}
+.profile-desc p{
+    color: gray;
+    margin: 0 auto 20px auto;
+    text-align: center;
+
+}
+
+.profile::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+/*profile design ends hare*/
+
+/*aboutme starts here*/
+
+
+.about-me{
+    margin-top: 400px;
+}
+
+
+.about-me::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/*aboutme ends here*/
+
+/*achevement design starts here*/
+.navbar-achievement{
+    background-color: #316895;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 8px;}
+
+    .my-achievement{
+    padding: 1% 0%;
+    margin-top: 10px;
+    background-color: #1e81b0;
+    border-radius: 20px;
+    height: 605px;
+}
+
+    /*achevement design ends here*/
+
+/*Skill design starts here*/
+
+.my-skills .my-skill {
+
+    margin-top: 390px;
+    height: 800px;
+    display:flex;
+    justify-content: center;
+
+}
+
+.my-skill .card{
+    background-color: #75ccdb;
+    border-radius: 40px;
+    margin-top: 35px;
+    padding: 10px;
+    transition: 0.3s;
+    height: 700px;
+    
+}
+
+.contactme{
+    background-color: #2596be;
+    margin-top: 10px;
+    height: 700px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-radius: 30px;
+}
+
+
+
+
+/*Skill design ends here*/
+

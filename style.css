@@ -1,0 +1,566 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+}
+h1{
+    font-family: 'Lobster Two', cursive;
+    font-size: 2rem;
+    text-align: center;
+    color: #2596be;
+
+}
+h2{
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.profile .top-profile-img{
+    margin-top: 10px;
+    width: 250px;
+    border: 5px solid white;
+    border-radius: 100px;
+    padding: 15px;
+    
+}
+
+a{
+    font-family: 'Teko', sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.dotted-hr{
+    border: dotted 6px white;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 70px;
+}
+
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+
+/* for Mobile */
+[class*="col-"]{
+    width: 100%;
+}
+
+/*navbar design starts heare */
+
+.navbar{
+    background-color: #244f7b;
+    padding: 1% 7%;
+    text-align: center;
+}
+.navbar h1{
+    color: #edf8fa;
+    margin: 0;
+    padding-top: 25px;
+}
+
+.navbar-manu a{
+    background-color: #1e81b0;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 10px;
+    
+    
+}
+
+.navbar-manu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.navbar-manu a:hover{
+    background-color:#41a2c3;;
+}
+
+.navbar::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* navbar design ends here */
+
+/* profile design ends here */
+
+.profile{
+    padding: 100px 10px;
+    position: relative;
+    text-align: center;
+    top: 10px;
+
+}
+
+.profile .profile-desc {
+    font-family: 'Lobster Two', cursive;
+    position: absolute;
+    top: 400px;
+    right: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.profile-desc p{
+    color: gray;
+    margin: 10px auto 20px auto;
+    text-align: center;
+
+}
+
+
+/* profile design ends here */
+
+/* about me design starts here*/
+.about-me {
+    background-color: #244f7b;
+    padding: 1% 7%;
+    height: 750px;
+    margin-top: 400px;
+    color: #edf8fa;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+ 
+}
+
+.about-me p{
+    text-align: center;
+}
+
+
+.cv-button{
+    background-color: #1e81b0;
+    color: #edf8fa;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+    
+}
+
+
+
+
+.about-me::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+
+/* about me design ends here*/
+
+/*My Project design Starts here*/
+
+
+.my-projects{
+    padding: 1% 0%;
+    margin-top: 10px;
+}
+.my-projects .card{
+    background-color: #a39e9e;
+    border-radius: 8px;
+    padding: 10px;
+    transition: 0.3s;
+    height: 800px;
+}
+
+.my-projects .card:hover{
+    box-shadow: 0 4px 8px 5px black;
+}
+
+.card-icon{
+    text-align: center;
+
+}
+
+.card-icon img{
+    margin-top: 20px;
+    width: 100px;
+
+}
+
+.rounded-img{
+    border: 5px solid white;
+    border-radius: 25%;
+    padding: 15px;
+
+}
+
+.my-projects::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.card-title h2{
+    background-color: white;
+    border: 2px solid #1e81b0;
+    border-radius: 25px;
+    padding: 10px;
+    color: #1e81b0;
+}
+
+.card-image{
+    text-align: center;
+   
+}
+.card-image img{
+    margin-top: 10px;
+    width: 400px;
+    border-radius: 8px;
+    
+}
+
+.card-desc{
+    text-align: center;
+}
+.card-desc h3{
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+    color: white;
+
+}
+.card-desc p{
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    color: white;
+}
+.navbar-project{
+    background-color: #316895;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 8px;
+    
+}
+.navbar-project b{
+    color: #edf8fa;
+    padding: 40px;
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    height: 300px;
+    
+}
+
+/*My Project design ends*/
+
+/*My Achievement design starts here*/
+
+.my-achievement{
+    padding: 1% 0%;
+    margin-top: 10px;
+    background-color: #1e81b0;
+    border-radius: 20px;
+    height: 1600px;
+}
+.my-achievement .card{
+    background-color: #75ccdb;
+    border-radius: 30px;
+    padding: 10px;
+    transition: 0.3s;
+    height: 320px;
+}
+
+.my-achievement .card:hover{
+    box-shadow: 0 4px 8px 5px black;
+}
+
+.card-icon{
+    text-align: center;
+
+}
+
+.card-icon img{
+    margin-top: 20px;
+    width: 100px;
+
+}
+
+.rounded-img{
+    border: 5px solid white;
+    border-radius: 20%;
+    padding: 15px;
+
+}
+
+.my-achievement::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.card-title h2{
+    background-color: white;
+    border: 2px solid #1e81b0;
+    border-radius: 25px;
+    padding: 10px;
+    color: #1e81b0;
+}
+
+.card-image{
+    text-align: center;
+   
+}
+.card-image img{
+    margin-top: 10px;
+    width: 400px;
+    border-radius: 8px;
+    
+}
+
+.navbar-achievement{
+    background-color: #316895;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 8px;
+    
+}
+.navbar-achievement b{
+    color: #edf8fa;
+    padding: 40px;
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    height: 500px;
+    
+}
+
+/*My Achievement design ends here*/
+
+/*Skill design starts here*/
+
+.my-skill .card{
+ 
+    background-color: #75ccdb;
+    border-radius: 40px;
+    margin-top: 30px;
+    padding: 10px;
+    transition: 0.3s;
+    height: 700px;
+}
+
+.my-skill .card:hover{
+    box-shadow: 0 4px 8px 5px black;
+}
+
+.card-icon{
+    text-align: center;
+
+}
+
+.card-icon img{
+    margin-top: 20px;
+    width: 100px;
+
+}
+
+.rounded-img{
+    border: 5px solid white;
+    border-radius: 30%;
+    padding: 15px;
+
+}
+
+.my-achievement::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.card-title h2{
+    background-color: white;
+    border: 2px solid #1e81b0;
+    border-radius: 25px;
+    padding: 10px;
+    color: #1e81b0;
+}
+
+.card-image{
+    text-align: center;
+   
+}
+.card-image img{
+    margin-top: 10px;
+    width: 400px;
+    border-radius: 8px;
+    
+}
+
+
+.skills-container{
+    padding-right: 45px ;
+}
+.skills-container li{
+    list-style: none;
+    font-weight: bolder;
+    margin: 30px 10px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.skills-container li::before{
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    width: 100%;
+    height: 10px;
+    background-color: #edf8fa;
+    left: 0px;
+    border-radius: 1000px;
+}
+
+.skills-container li::after{
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    width: 0%;
+    height: 10px;
+    background-color: #4e757c;
+    left: 0px;
+    border-radius: 1000px;
+
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.skills-container li.HTML::after{
+    animation-name: HTML;
+}
+
+@keyframes HTML{
+    to{
+        width: 80%;
+    }
+}
+
+
+.skills-container li.CSS::after{
+    animation-name: CSS;
+}
+
+@keyframes CSS{
+    to{
+        width: 80%;
+    }
+}
+
+.skills-container li.BOOTSTRAP::after{
+    animation-name: BOOTSTRAP;
+}
+
+@keyframes BOOTSTRAP{
+    to{
+        width: 70%;
+    }
+}
+.skills-container li.JAVASCRIPT::after{
+    animation-name: JAVASCRIPT;
+}
+
+@keyframes JAVASCRIPT{
+    to{
+        width: 90%;
+    }
+}
+
+.skills-container li.JQUERY::after{
+    animation-name: JQUERY;
+}
+
+@keyframes JQUERY{
+    to{
+        width: 90%;
+    }
+}
+
+.skills-container li.NODEJS::after{
+    animation-name: NODEJS;
+}
+
+@keyframes NODEJS{
+    to{
+        width: 60%;
+    }
+}
+
+.skills-container li.EXPREESJS::after{
+    animation-name: EXPREESJS;
+}
+
+@keyframes EXPREESJS{
+    to{
+        width: 80%;
+    }
+}
+
+.skills-container li.GITHUB::after{
+    animation-name: GITHUB;
+}
+
+@keyframes GITHUB{
+    to{
+        width: 95%;
+    }
+}
+
+.skills-container li.REACTJS::after{
+    animation-name: REACTJS;
+}
+
+@keyframes REACTJS{
+    to{
+        width: 90%;
+    }
+}
+
+/*Skill design ends here*/
+
+/*contact-me design ends here*/
+
+.contactme{
+    background-color: #2596be;
+    margin-top: 2890px;
+    height: 700px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-radius: 30px;
+}
+
+
+
+.contactme::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+.line{
+    text-align: center;
+    padding: 20px;
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #a39e9e;
+}
+
+
